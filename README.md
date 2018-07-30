@@ -5,14 +5,14 @@ executable <input file path> <number of clusters to create> <output file path>
 ```
 
 **Input file format**
-A text file with sink nodes locations and the load values, one node per line. For example, if the input file contains 3 sink nodes -- node 1: location (51,23), capacitance 6.8; node 2: location (31,73), capacitance 2.8; node 3: location (123,92), capacitance 13. The input file would look like the following:
-51 23 6.8
-31 73 2.8
+A text file with sink nodes locations and the load values, one node per line. For example, if the input file contains 3 sink nodes -- node 1: location (51,23), capacitance 6.8; node 2: location (31,73), capacitance 2.8; node 3: location (123,92), capacitance 13. The input file would look like the following:<br/>
+51 23 6.8<br/>
+31 73 2.8<br/>
 123 92 13
 
 **Output file format**
-Assuming we are clustering registers to form two trees, the output file may look like the following:
-The node id 14: Coordinate(197, 307), total load 17620.4
+Assuming we are clustering registers to form two trees, the output file may look like the following:<br/>
+The node id 14: Coordinate(197, 307), total load 17620.4<br/>
 The node id 15: Coordinate(1328, 3989), total load 37286.0
 
 **Java Class Summary:**
