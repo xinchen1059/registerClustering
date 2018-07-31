@@ -5,7 +5,7 @@ executable <input file path> <number of clusters to create> <output file path>
 ```
 
 **Input file format**
-A text file with sink nodes locations and the load values, one node per line. For example, if the input file contains 3 sink nodes -- node 1: location (51,23), capacitance 6.8; node 2: location (31,73), capacitance 2.8; node 3: location (123,92), capacitance 13. The input file would look like the following:<br/>
+A text file with sink nodes locations and the load values, one node per line. For example, if the input file contains 3 sink nodes -- node 1: location (51,23), load 6.8; node 2: location (31,73), load 2.8; node 3: location (123,92), load 13. The input file would look like the following:<br/>
 51 23 6.8<br/>
 31 73 2.8<br/>
 123 92 13
